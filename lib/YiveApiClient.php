@@ -10,12 +10,7 @@ class YiveApiClient
     {
         $this->token = $token;
     }
-
-    function response()
-    {
-
-    }
-
+    
     function get($endpoint)
     {
         $curl = curl_init();
