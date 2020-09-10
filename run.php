@@ -15,7 +15,7 @@ require 'lib/Crawler3gorilla.php';
 require 'lib/YiveApiClient.php';
 
 // initialize YIVE API CLient using API key
-$yiveClient = new YiveApiClient('DWoZ5y5Xm5y3LF5npw7VsttiSv8h5rESyz3FGvaBlkXN55bREM1JKp76QOijVeQIWdCPRsr13pUZO7LH');
+$yiveClient = new YiveApiClient('YOUR_TOKEN_HERE');
 
 // hit `/api/v1/user` to make sure API token is valid
 $user = $yiveClient->get('/api/v1/user');

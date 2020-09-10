@@ -2,9 +2,9 @@
 Crawler Example for 3gorillas.com to submit content at YIVE
 
 ## Gettting started
-1. Clone repository using 
+1. Clone repository using
 ```bash
-git clone git@github.com:YiveSystems/3gorilla-yive-crawler-example.git
+git clone git@github.com:YiveSystems/yive-crawler-example-3gorilla.git
 ```
 
 2. Edit `run.php` and update API key on YiveApiClient
