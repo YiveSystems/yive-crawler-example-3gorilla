@@ -2,7 +2,7 @@
 
 class YiveApiClient
 {
-    const HOST = 'http://yive3.test';
+    const HOST = 'https://app.yive.io';
 
     private $token;
 
@@ -10,7 +10,7 @@ class YiveApiClient
     {
         $this->token = $token;
     }
-    
+
     function get($endpoint)
     {
         $curl = curl_init();
